@@ -1,0 +1,164 @@
+<h1 id="an-interactive-bi-objective-optimization-process-to-guide-the-design-of-electric-vehicle-warning-sounds">An interactive bi-objective optimization process to guide the design of electric vehicle warning sounds</h1>
+<h3 id="audio-examples">Audio examples</h3>
+<h2 id="synthesizer-components">Synthesizer components</h2>
+<p>Below are four spectrograms, corresponding to the four components of the synthesizer used in our study. Top-left is a synthesized 4-cylinder internal combustion engine sound. Top-right is a synthesized major chord. Bottom-left and bottom-right are white noise components, with the bottom-right one having a wider frequency range.</p>
+<figure>
+<img src="img/SpecParts.png" title="Spectrograms of the four synth components" alt="synth_components" /><figcaption aria-hidden="true">synth_components</figcaption>
+</figure>
+<p>
+  <audio controls src="audio/onlyMotor.wav"></audio> <audio controls src="audio/onlyChord.wav"></audio> <audio controls src="audio/onlyNoise1.wav"></audio> <audio controls src="audio/onlyNoise2.wav"></audio></p>
+<h2 id="mixed-sound-examples">Mixed sound examples</h2>
+<p>The two sounds represented by the spectrograms below are examples of combinations between the four synthesizer components. The settings are (A3,B4,C3,D4,E2,F4) for the sound on the left and (A2,B3,C4,D2,E3,F3) for the sound on the right. Further explanations regarding the meaning of the synthesizer settings are in the paper.</p>
+<figure>
+<img src="img/SpecNoBackNoSpat.png" title="Spectrograms two sound examples" alt="synth_examples" /><figcaption aria-hidden="true">synth_examples</figcaption>
+</figure>
+<p><audio controls src="audio/example1NoBackground.wav"></audio> <audio controls src="audio/example2NoBackground.wav"></audio></p>
+<h2 id="with-the-background">With the background</h2>
+<p>Here is the first of the two examples from above (A3,B4,C3,D4,E2,F4), mixed with an extract of the background track. The EV sound is spatialized, so that it heard going from the left to the right. The time t1 indicates the start of the EV sound. The time t3 indicates the moment when the vehicle passes in front of the listener.</p>
+<figure>
+<img src="img/SpecFull.png" title="Spectrogram of an example sound mixed with a background extract" alt="synth_with_background" /><figcaption aria-hidden="true">synth_with_background</figcaption>
+</figure>
+<p><audio controls src="audio/example1Full.wav"></audio></p>
+<h2 id="recommended-designed-and-random-sounds">Recommended, Designed and Random sounds:</h2>
+<p>Below are the recommended sounds from experiment 3 (see paper), as well as the designed and recommended sounds used for comparison. The designed sounds and the first four random sounds were also the ones used in experiment 2.</p>
+<h3 id="recommended-sounds">Recommended sounds</h3>
+<table>
+<colgroup>
+<col style="width: 5%" />
+<col style="width: 45%" />
+<col style="width: 48%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Without background, no spatialization</th>
+<th>With background and spatialization</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>reco1</td>
+<td><audio controls src="audio/Recommended1_(322211).wav"></audio></td>
+<td><audio controls src="audio/Recommended1_(322211)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>reco2</td>
+<td><audio controls src="audio/Recommended2_(144411).wav"></audio></td>
+<td><audio controls src="audio/Recommended2_(144411)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td>reco3</td>
+<td><audio controls src="audio/Recommended3_(244411).wav"></audio></td>
+<td><audio controls src="audio/Recommended3_(244411)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>reco4</td>
+<td><audio controls src="audio/Recommended4_(322232).wav"></audio></td>
+<td><audio controls src="audio/Recommended4_(322232)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td>reco5</td>
+<td><audio controls src="audio/Recommended5_(144432).wav"></audio></td>
+<td><audio controls src="audio/Recommended5_(144432)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>reco6</td>
+<td><audio controls src="audio/Recommended6_(244432).wav"></audio></td>
+<td><audio controls src="audio/Recommended6_(244432)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td>reco7</td>
+<td><audio controls src="audio/Recommended7_(124211).wav"></audio></td>
+<td><audio controls src="audio/Recommended7_(124211)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>reco8</td>
+<td><audio controls src="audio/Recommended8_(434211).wav"></audio></td>
+<td><audio controls src="audio/Recommended8_(434211)_BS.wav"></audio></td>
+</tr>
+</tbody>
+</table>
+<h3 id="designed-sounds">Designed sounds</h3>
+<table>
+<colgroup>
+<col style="width: 7%" />
+<col style="width: 44%" />
+<col style="width: 47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Without background, no spatialization</th>
+<th>With background and spatialization</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>design1</td>
+<td><audio controls src="audio/Designed1_(244211).wav"></audio></td>
+<td><audio controls src="audio/Designed1_(244211)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>design2</td>
+<td><audio controls src="audio/Designed2_(131142).wav"></audio></td>
+<td><audio controls src="audio/Designed2_(131142)_BS.wav"></audio></td>
+</tr>
+</tbody>
+</table>
+<h3 id="random-sounds">Random sounds</h3>
+<table>
+<colgroup>
+<col style="width: 6%" />
+<col style="width: 45%" />
+<col style="width: 47%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Without background, no spatialization</th>
+<th>With background and spatialization</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>rand1</td>
+<td><audio controls src="audio/Random1_(341223).wav"></audio></td>
+<td><audio controls src="audio/Random1_(341223)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>rand2</td>
+<td><audio controls src="audio/Random2_(132411).wav"></audio></td>
+<td><audio controls src="audio/Random2_(132411)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td>rand3</td>
+<td><audio controls src="audio/Random3_(413144).wav"></audio></td>
+<td><audio controls src="audio/Random3_(413144)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>rand4</td>
+<td><audio controls src="audio/Random4_(224332).wav"></audio></td>
+<td><audio controls src="audio/Random4_(224332)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td>rand5</td>
+<td><audio controls src="audio/Random5_(314212).wav"></audio></td>
+<td><audio controls src="audio/Random5_(314212)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>rand6</td>
+<td><audio controls src="audio/Random6_(111413).wav"></audio></td>
+<td><audio controls src="audio/Random6_(111413)_BS.wav"></audio></td>
+</tr>
+<tr class="odd">
+<td>rand7</td>
+<td><audio controls src="audio/Random7_(141244)).wav"></audio></td>
+<td><audio controls src="audio/Random7_(141244)_BS.wav"></audio></td>
+</tr>
+<tr class="even">
+<td>rand8</td>
+<td><audio controls src="audio/Random8_(233244).wav"></audio></td>
+<td><audio controls src="audio/Random8_(233244)_BS.wav"></audio></td>
+</tr>
+</tbody>
+</table>
